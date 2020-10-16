@@ -73,4 +73,6 @@ void main() {
 		printf("Cows: %d  Bulls: %d\n", cow, bull);
 	} while (end != max);
 	printf("WIN!!");
+	getchar();
+	getchar();
 }
