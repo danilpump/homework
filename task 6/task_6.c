@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-const float ko = 3.14 / 180;
 float acc, sum = 0, fact = 1;
 int elem;
 
