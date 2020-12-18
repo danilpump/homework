@@ -168,11 +168,11 @@ void mode1()
 		scanf("%d", &sw);
 		switch (sw)
 		{
-		case 1: func = sinus1; func(x); break;
-		case 2: func = cosin; func(x); break;
-		case 3: func = expon; func(x); break;
-		case 4: func = ctgns; func(x); break;
-		default: return;
+		    case 1: func = sinus1; func(x); break;
+		    case 2: func = cosin; func(x); break;
+		    case 3: func = expon; func(x); break;
+		    case 4: func = ctgns; func(x); break;
+		    default: return;
 		}
 		sum = 0;
 	}
