@@ -324,7 +324,7 @@ void main()
 		scanf("%d", &sw);
 		switch (sw)
 		{
-		    case 1: print(a, r); break;
+			case 1: print(a, r); break;
 			case 2: search_ph(a, r); break;
 			case 3: search_sn(a, r); break;
 			case 4: search_n(a, r); break;
