@@ -19,13 +19,9 @@ int main()
 	obj3 = obj2 + obj1;
 	obj3.print_array();
 
-	//printf("\nobj3 = obj2 + obj1:");
-	//obj3 = obj2 + obj1;
-	//obj3.print_array();
-
-	//printf("\nobj3 = ~obj3:");
-	//obj3 = ~obj3;
-	//obj3.print_array();
+	printf("\nobj3 = ~obj3:");
+	obj3 = ~obj3;
+	obj3.print_array();
 
 	//printf("\nobj3 == obj2:");
 	//if (obj3 == obj2) printf("true\n");
